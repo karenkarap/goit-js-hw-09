@@ -1,0 +1,12 @@
+/* simplelightbox down here */
+@import url( "simplelightbox/dist/simple-lightbox.min.css");
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
